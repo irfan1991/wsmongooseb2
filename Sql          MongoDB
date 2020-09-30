@@ -1,0 +1,23 @@
+Sql          MongoDB
+db          db
+table       collection
+row         document / BSON
+column      field
+index       index
+table join  $lookup, embedded documents
+primary key primary key (generate auto _id)
+(constraint)
+
+tingkatan hak akses pada MongoDB
+-read
+-readWrite
+-dbAdmin
+- userAdmin
+- dbOwner 
+- readAnyDatabase
+- readWriteAnyDatabase
+- userAdminAnyDatabase
+- dbAdminAnyDatabase 
+-root 
+
+ODM (Object DOcument Mapping)
