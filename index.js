@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 //cors middleware
 var corsOptions = {
-    origin : 'http://example.com'
+    origin : 'http://localhost:4000'
 }
 app.use(cors(corsOptions));
 
@@ -32,7 +32,7 @@ app.use(log);
 
 
 //middleware untuk routing
-const routers = require('./routers.js');
+const routers = require('./routers2.js');
 app.use(routers);
 
 // app.use(compression())

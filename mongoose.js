@@ -116,20 +116,26 @@ db.once('open', async ()=>{
         
     // }
     
-    //validasi user
-    try {
+    //validasi user unique
+    // try {
 
-        const newUser = await User.create({
-            username : 'John',
-            email :'john.gmail.com',
-            password : '123456'
-        })
-        console.log(newUser);
+    //     const newUser = await User.create({
+    //         username : 'John',
+    //         email :'john.gmail.com',
+    //         password : '123456'
+    //     })
+    //     console.log(newUser);
         
-    } catch (error) {
-        console.log(error.message);
+    // } catch (error) {
+    //     console.log(error.message);
         
-    }
+    // }
     
+    //query builder
+    const query = await  Product.find().select('name stock')
+                        .where({'stock' : {$gte : 5}}).sort({stock:-1})
+                        .limit(2).exec()
+  
+    console.log(query);
     
 })

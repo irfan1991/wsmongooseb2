@@ -21,3 +21,35 @@ tingkatan hak akses pada MongoDB
 -root 
 
 ODM (Object DOcument Mapping)
+
+NODE JS
+    Monolithic
+        Mysql + MongoDB + Node JS *
+        Mysql + PUG *
+        Mysql +  EJS
+    Express - Web Api
+        Mysql
+        Squelize + Mysql
+        Mysql + Squelize + Pagination
+        Squelize + Postgresql
+        MongoDB *
+        MongoDB + Squelize + Pagination
+    WS Security
+        USer Auth with Mysql *
+        USer AUTH with MongoDB
+    Auth with front end 
+        JWT Node + React
+        JWT NOde + Vue
+    Node JS ODM Moongose
+        Intro CRUD*
+        One to ONe 
+        One to Many
+    Node JS ORM
+        One to Many
+        Many TO Many
+    Node JS with Files
+    Node JS with CSV
+    Node JS with Excel
+    NOde Js Email
+    NOde JS Grafik
+    Deployment *
